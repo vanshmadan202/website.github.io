@@ -1,0 +1,252 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background-image: url("C:\Users\Vansh\Pictures\logo.jpg") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{/*nagpal traders*/
+font-family: 'Lora', serif;
+color:#557c3e;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p{/*isi text*/
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span{/*isi-image*/
+	vertical-align: middle;
+
+}
+
+.navbar-brand>img{
+	display: block;
+}
+
+@media(min-width: 768 px){
+	.navbar>.container .navbar-brand,
+	.navbar>.container-fluid .navbar-brand{
+		margin-left: -15px;
+	}
+}
+
+.navbar-toggle{
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.navbar-toggle:focus{
+	outline: 0;
+}
+.navbar-toggle .icon-bar{
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+.navbar-toggle .icon-bar{
+	margin-top: 4px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.2em;
+	text-align: right;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+.navbar-header button .navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+@media (max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img{
+		height: 20px;
+	}
+}
+
+/*home page*/
+
+
+.container .jumbotron{
+	box-shadow: 0 0 50px #3F0C1F;
+    border:2px solid #3F0C1F;
+    margin: 0 auto 0 ;
+}
+
+#items-tile,#design-tile,#map-tile{
+	height: 255px;
+	width: 380px;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden; 
+	
+}
+#items-tile,#design-tile,#map-tile{
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+	margin-right: 25px;
+}
+
+#items-tile span,#design-tile span,#map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+#items-tile{
+	background-image: url(images/design.jpg);
+}
+
+#items-tile:hover, #design-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+@media(min-width: 1200px){
+	.jumbotron{
+		background-image: url('C:\Users\Vansh\Pictures\images\kitchen.png') no-repeat;
+		height: 525px;
+		background-position: center;
+		display: block;
+        /*margin-left: 50px;
+        margin-right: 50px;*/
+
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+
+	}
+	.jumbotron{
+		background: url("C:\Users\Vansh\Pictures\images\kitchen.png") no-repeat;
+		height: 525px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F;
+	}
+
+}
+
+/*footer*/
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	background-size: auto;
+	height: 300px;
+}
+.panel-footer div .row{
+	margin-bottom: 35px;
+}
+#hours ,#address{
+	line-height: 2;
+}
+#hours > span , #address > span{
+	font-size: 1.3em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#testimonials{
+	font-style: italic; 
+}
+
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+
+#hours,#address{
+	position: relative;
+	float: left;
+	margin: auto 30px auto;
+}
+#testimonials{
+	position: relative;
+	float: right;
+	margin: auto 30px auto;
+}
